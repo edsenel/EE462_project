@@ -1,0 +1,14 @@
+P_nom = 400000;
+n_nom = 1500;
+n_max = 2250;
+p = 4;
+pp = p/2;
+lam = 0.5;
+I_nom = 1700;
+Rs = 16e-3;
+Ld = 350e-6;
+Lq = Ld;
+J_rotor = 10;
+T_max = (3/2) * pp * lam * I_nom;
+f_m = n_max /  60;
+f_e = f_m * pp;
